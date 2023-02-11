@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata3angle", "Kata3angle\Kata3angle.csproj", "{DCAB0EEC-8003-46A4-8F6A-5953513DF424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCAB0EEC-8003-46A4-8F6A-5953513DF424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAB0EEC-8003-46A4-8F6A-5953513DF424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAB0EEC-8003-46A4-8F6A-5953513DF424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAB0EEC-8003-46A4-8F6A-5953513DF424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D1205EA-B7FF-4077-885D-72DF10BB755C}
+	EndGlobalSection
+EndGlobal
