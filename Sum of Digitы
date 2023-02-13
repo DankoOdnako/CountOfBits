@@ -1,0 +1,43 @@
+using System.Collections.Generic;
+using System.Numerics;
+using System.Text.RegularExpressions;
+
+namespace Kata3angle
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(DigitalRoot(4));
+        }
+
+        public static int DigitalRoot(long n)
+        {
+            long x = 0;
+            long y = 0;
+            long sum = 0;
+            if (n / 10 > 0)
+            {
+                while (n / 10 > 0)
+                {
+                    x = n % 10;
+                    sum += x;
+                    n /= 10;
+                }
+                sum += n;
+            }
+            else
+                sum = n;
+
+            if (sum % 10 > 0)
+            {
+                while (sum / 10 > 0)
+                {
+                    sum = sum % 10 + sum / 10;
+                }
+            }
+
+            return Convert.ToInt32(sum);
+        }
+    }
+}
